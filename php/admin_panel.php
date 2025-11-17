@@ -68,7 +68,6 @@ if (!isset($_SESSION['admin']) || $_SESSION['admin'] !== true) {
     <!-- 2) Eliminar trayectos -->
     <a class="btn" href="lista_trayectos.php">Eliminar Trayecto</a>
 
-
     <!-- 3) Salir y cerrar sesión -->
     <a class="btn salir" href="salir.php">Salir</a>
 

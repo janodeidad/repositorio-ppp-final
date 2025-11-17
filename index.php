@@ -62,10 +62,9 @@
             </button>
           </div>
         </div>
-        <div class="col-md-8 ">
-          <h2>centro de formacion profesional</h2>
-          <p>El CFP N° 24 es una escuela pública de oficios del barrio de Flores, CABA. Fue creada en el año 2000 y se
-            dedica a la formación profesional de jóvenes y adultos.</p>
+        <div class="col-md-8 text-center">
+          <h2>El Centro de Formación Profesional N° 61</h2>
+          <p>El Centro de Formación Profesional N° 61 en La Criolla, Entre Ríos, es una institución educativa que ofrece cursos de formación profesional y capacitación laboral para una rápida inserción en el mercado socioproductivo local y regional. La institución se destaca por su oferta gratuita y con validez nacional, y ofrece capacitaciones en diversas áreas, incluyendo Construcción de muebles de placas de madera.</p>
 
         </div>
       </div>
@@ -116,7 +115,7 @@
     Las inscripciones para cursos se realizan con sistema online (preinscripción) y también de forma presencial en
     determinados períodos.
     <br>
-    El CFP 24 también se involucra en proyectos comunitarios, colaboraciones con el barrio, ferias, talleres prácticos
+    El CFP 61 también se involucra en proyectos comunitarios, colaboraciones con el barrio, ferias, talleres prácticos
     que conectan formación profesional con contexto social.
   </p>
   <h2 class="text-center mb-3 "><a href="php/lista_trayectos.php" class="btn btn-primary" style="background-color: rgb(118, 187, 248);">Ver
@@ -128,25 +127,25 @@
   <div class="container-fluid" id="contacto">
     <div class="row">
       <div class="col-sm-6">
-        <form class="p-4 rounded shadow" id="formulario">
+        <form class="p-4 rounded shadow" id="formulario" method="POST"  action="./php/insertar_registros.php">
           <h2>Contacto</h2>
           <div class="mb-3">
             <label for="name" class="form-label">Nombre</label>
-            <input type="text" class="form-control" name="Nombre" id="name" required>
+            <input type="text" class="form-control" name="nombre" id="name" required>
           </div>
           <div class="mb-3">
-            <label for="email" class="form-label">Email</label>
-            <input type="email" class="form-control" name="Email" id="email" required>
+            <label for="email" class="form-label">correo</label>
+            <input type="email" class="form-control" name="correo" id="email" required>
           </div>
 
           <div class="mb-3">
             <label for="tel" class="form-label">Teléfono</label>
-            <input type="tel" class="form-control" name="Telefono" id="tel" required>
+            <input type="tel" class="form-control" name="telefono" id="tel" required>
           </div>
 
           <div class="mb-3">
             <label for="msg" class="form-label">Mensaje</label>
-            <textarea class="form-control" name="Mensaje" id="msg" rows="4"></textarea>
+            <textarea class="form-control" name="mensaje" id="msg" rows="4"></textarea>
           </div>
 
           <div class="text-center">
@@ -156,12 +155,12 @@
       <div class="col-sm-6">
         <div class="row">
           <div class="col-sm">
-          <h3>direccion</h3>
+          <h3>Direccion</h3>
           <p>Morón 2538, Flores, CABA, Argentina.</p>
-          <h3>Numero:</h3>
+          <h3>Telefono</h3>
           <p>011 4611-5374.</p>
-          <h3>Gmail</h3>
-          <p>cfplacriolla@gmail.comcfp61lacriolla</p>
+          <h3>Correo</h3>
+          <p>cfplacriolla@gmail.com</p>
           <h3>Facebook</h3>
           <p>cfp24oficial</p>
           </div>
